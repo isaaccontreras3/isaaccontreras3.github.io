@@ -27,7 +27,7 @@ The following map of New York City shows tech companies in blue dots. By observa
 
 The total counts were calculated by the sum of the entries and exits. The MTA ridership data was provided on a daily basis with audits every 4 hours for each turnstile. Each station consisted of multiple turnstiles, so the data must be analyzed for each individual turnstile before analyzing the station data. After compiling the counts per 4 hours and per day for each turnstile, the total counts can be calculated for each station. Shown below is the total ridership in millions for the top 20 stations.
 
-<img src="/images/station_ridership_barh.png" width="500">
+<img src="/images/station_ridership_barh.png" width="600">
 
 
 
