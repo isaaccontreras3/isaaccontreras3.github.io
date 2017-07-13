@@ -25,11 +25,10 @@ The following map of New York City shows tech companies in blue dots. By observa
 <img src="/images/tech_hub_map.png" width="500">
 ## Analysis:
 
-The total counts were calculated by the sum of the entries and exits. The MTA ridership data was provided on a daily basis with audits every hours for each turnstile. Each station consisted of multiple turnstiles, so the data must be analyzed for each individual turnstile before analyzing the station data. The first step was to compile the counts per 4 hours and then per day for each turnstile.
-* Find count (Entries + Exits) per 4 hours for each turnstile
-* Find count per day for each turnstile
+The total counts were calculated by the sum of the entries and exits. The MTA ridership data was provided on a daily basis with audits every 4 hours for each turnstile. Each station consisted of multiple turnstiles, so the data must be analyzed for each individual turnstile before analyzing the station data. After compiling the counts per 4 hours and per day for each turnstile, the total counts can be calculated for each station. Shown below is the total ridership in millions for the top 20 stations.
 
-[insert bar graph of top 20 stations and total counts]
+<img src="/images/station_ridership_barh.png" width="500">
+
 
 
 [insert bar graph of three regions-CREATE THIS]
