@@ -20,28 +20,25 @@ The following sources are used to generate the data:
 
 The following map of New York City shows tech companies in blue dots. By observation, there are two major tech hubs: Silicon Alley and Lower Manhattan. Columbia University is another area which can attract aspiring women workers in technology. These are the three regions of focus where the station ridership data will be generated.
 
-```![_config.yml]({{ site.baseurl}}/images/tech_hub_map.png)```
-
 <img src="/images/tech_hub_map.png" width="500">
+
 ## Analysis:
 
-The total counts were calculated by the sum of the entries and exits. The MTA ridership data was provided on a daily basis with audits every 4 hours for each turnstile. Each station consisted of multiple turnstiles, so the data must be analyzed for each individual turnstile before analyzing the station data. After compiling the counts per 4 hours and per day for each turnstile, the total counts can be calculated for each station. Shown below is the total ridership in millions for the top 20 stations.
+The total counts were calculated by the sum of the entries and exits. The MTA ridership data was provided on a daily basis with audits every 4 hours for each turnstile. Each station consisted of multiple turnstiles, so the data must be analyzed for each individual turnstile before analyzing the station data. After compiling the counts per 4 hours and per day for each turnstile, the total counts can be calculated for each station.
+
+Shown below is the total ridership in millions for the top 20 stations. The most popular stations are Grand Central-42 Street and 34 Street-Herald Square by far, with riderships of over 5 and 6 million, respectively. All the top 20 stations have more than 1 million counts through May 2016, and 15 of them have riderships higher than 2 million. The implication here is that all the top station will receive ample traffic for advertising the event.
 
 <img src="/images/station_ridership_barh.png" width="600">
 
-* Analysis of the image above here
+The top stations can be refined further based on the demographical information and proximity to tech hubs. This allows a better analysis of stations that would be best fit for the target audience of women workers in technology. The following figure shows the ridership in millions for each day of the week for the top 10 refined stations. The heat map shows that there are much higher riderships during the weekdays than weekends. However, there is not a significant difference amongst the weekdays. This suggests that most weekdays will provide sufficient traffic for all the stations even if a single optimal day is chosen.
 
-The top stations can be refined further based on the demographical information and proximity to tech hubs. The following figure shows the ridership in millions per day of the week for the top 10 refined stations.
+<img src="/images/station_day_heat.png" width="700">
 
-* Analysis of image below here
+Once the optimal day for each station is chosen, the optimal hours with highest ridership can be analyzed. Here we show the ridership by 4 hour blocks for each station on their optimal day. The time of audits varies by station as shown in the heat map below. The time of audits corresponds to the beginning time of the 4 hour audit blocks.
 
-<img src="/images/station_day_heat.png" width="600">
+The heat map shows that highest traffic hours for most of the top stations are 4 to 8pm during late afternoon rush hour. In general, ridership was high during the day starting 8am compared to early morning and late night.
 
-Based on the optimal day for each station, the optimal hours with highest ridership can also be analyzed. Here we show the ridership by 4 hour blocks for each station on their optimal day.
-
-* Analysis of image below here
-
-<img src="/images/station_top_day_hour_heat.png" width="600">
+<img src="/images/station_top_day_hour_heat.png" width="700">
 
 * Generate the top 10 stations based on the demographics and region
 
