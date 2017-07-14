@@ -6,7 +6,7 @@ title: MTA Turnstile Analysis
 
 ## Background:
 
-WomenTechWomenYes (WTWY) hosts annual gala in New York City at the end of May each year in order to connect workers in technology. The goal of the gala is to increase the participation of women in technology and build awareness and outreach. The organization is interested in harnessing the power of data analytics to optimize the effectiveness of street team work, which is crucial to their fundraising efforts. The street team will be placed at the entrances to subway stations to market the event.
+WomenTechWomenYes (WTWY) hosts an annual gala in New York City at the end of May each year in order to connect workers in technology. The goal of the gala is to increase the participation of women in technology and build awareness and outreach. The organization is interested in harnessing the power of data analytics to optimize the effectiveness of street team work, which is crucial to their fundraising efforts. The street team will be placed at the entrances to subway stations to market the event.
 
 ## Approach:
 
@@ -24,7 +24,7 @@ The following map of New York City shows tech companies in blue dots. By observa
 
 ## Analysis:
 
-The total counts were calculated by the sum of the entries and exits. The MTA ridership data was provided on a daily basis with audits every 4 hours for each turnstile. Each station consisted of multiple turnstiles, so the data must be analyzed for each individual turnstile before analyzing the station data. After compiling the counts per 4 hours and per day for each turnstile, the total counts can be calculated for each station.
+The total counts are calculated by the sum of the entries and exits. The MTA ridership data is provided on a daily basis with audits every 4 hours for each turnstile. Each station consists of multiple turnstiles, so the data must be analyzed for each individual turnstile before analyzing the station data. After compiling the counts per 4 hours and per day for each turnstile, the total counts are calculated for each station.
 
 Shown below is the total ridership in millions for the top 20 stations. The most popular stations are Grand Central-42 Street and 34 Street-Herald Square by far, with riderships of over 5 and 6 million, respectively. All the top 20 stations have more than 1 million counts through May 2016, and 15 of them have riderships higher than 2 million. The implication here is that all the top station will receive ample traffic for advertising the event.
 
