@@ -36,33 +36,8 @@ The top stations can be refined further based on the demographical information a
 
 Once the optimal day for each station is chosen, the optimal hours with highest ridership can be analyzed. Here we show the ridership by 4 hour blocks for each station on their optimal day. The time of audits varies by station as shown in the heat map below. The time of audits corresponds to the beginning time of the 4 hour audit blocks.
 
-The heat map shows that highest traffic hours for most of the top stations are 4 to 8pm during late afternoon rush hour. In general, ridership was high during the day starting 8am compared to early morning and late night.
+The heat map shows that highest traffic hours for most of the top stations are 4 to 8pm during late afternoon rush hour. Ridership for all stations was high during the day starting 8am compared to early morning and late night.
 
 <img src="/images/station_top_day_hour_heat.png" width="700">
 
-* Generate the top 10 stations based on the demographics and region
-
-[insert plot of the top 10- total day]
-
-* Weekdays look like the best- consolidate weekday results and compare hours
-
-[insert plot of station vs hours]
-
-* Find the optimal time for the highest traffic day of each station
-
-[insert plot of station & optimal day vs hours]
-
-* Remove audits with unrealistic amount of entries, set max entries to 10000 per day
-[insert histogram]
-
-
-
-
-
-
-
-Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
-
-![_config.yml]({{ site.baseurl }}/images/config.png)
-
-The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
+## Next Steps:
