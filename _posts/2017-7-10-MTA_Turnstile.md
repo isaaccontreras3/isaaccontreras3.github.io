@@ -29,9 +29,19 @@ The total counts were calculated by the sum of the entries and exits. The MTA ri
 
 <img src="/images/station_ridership_barh.png" width="600">
 
+* Analysis of the image above here
 
+The top stations can be refined further based on the demographical information and proximity to tech hubs. The following figure shows the ridership in millions per day of the week for the top 10 refined stations.
 
-[insert bar graph of three regions-CREATE THIS]
+* Analysis of image below here
+
+<img src="/images/station_day_heat.png" width="600">
+
+Based on the optimal day for each station, the optimal hours with highest ridership can also be analyzed. Here we show the ridership by 4 hour blocks for each station on their optimal day.
+
+* Analysis of image below here
+
+<img src="/images/station_top_day_hour_heat.png" width="600">
 
 * Generate the top 10 stations based on the demographics and region
 
