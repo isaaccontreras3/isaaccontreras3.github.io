@@ -41,3 +41,5 @@ The heat map shows that highest traffic hours for most of the top stations are 4
 <img src="/images/station_top_day_hour_heat.png" width="700">
 
 ## Next Steps:
+
+The proposed plan for the street team of WTWY will provide significant increases in exposure to women workers in technology. In order to more accurately assess the optimal marketing time, more data from different months and years should be analyzed in order to observe any variations in ridership behavior through different times of the year. This could mean collecting data from previous months and the same month from several different years. There should also be a more thorough analysis of how to best utilize the availability of the volunteers to construct a schedule that optimizes exposure to WTWY. With these further changes, the marketing strategy can be refined to build even more awareness of the event.
