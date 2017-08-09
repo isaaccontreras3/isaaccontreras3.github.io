@@ -2,7 +2,9 @@
 layout: post
 title: Predicting Agriculture Yield with Weather
 ---
-![_config.yml]({{https://media1.britannica.com/eb-media/90/94190-004-D8BC0070.jpg}}/images/weather_agriculture/wheat_image.jpg)
+<img src="/images/weather_agriculture/wheat_image.jpg" width="500">
+
+![_config.yml]({{ https://media1.britannica.com/eb-media/90/94190-004-D8BC0070.jpg}}/images/weather_agriculture/wheat_image.jpg)
 
 ## Background:
 The global human population has been growing consistently and is expected to reach 9 billion by 2050. The average American consumes about 2000 pounds of food per year. Assuming these numbers hold true through 2050, there will be a significant increase in demand for food in the next few decades. Scientists have claimed that environmental degradation and variable weather conditions caused by climate change can potentially threaten the global food supply. In order to understand this relationship, the effect of different weather variables on crop yield is studied. California agriculture data from USDA National Agricultural Statistics Service is studied in order to understand the crop yield of corn and wheat in the nation's largest agriculture industry. Weather data on Fresno, California is collected from Weather Underground in order to specify the county with the highest crop yield in the state. Using these two data sources, an appropriate study can be done to predict the effect of weather on crop yield for the rest of the US.
@@ -18,7 +20,13 @@ Once the optimal variables had been identified, regularization with an alpha val
 
 ### Corn Yield
 
-
+$$
+\begin{aligned}
+u_0&amp;=0 \\
+u_1&amp;=1 \\
+u_n&amp;=u_{n-1}+u_{n-2} \forall n \in \Bbb{N}, n \geq 2
+\end{aligned}
+$$
 
 ### Wheat Yield
 
