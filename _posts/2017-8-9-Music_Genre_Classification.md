@@ -2,7 +2,7 @@
 layout: post
 title: Music Genre Classification
 ---
-<img src="/images/Music_Genre_Classification/sound_waves.png" width="500">
+![_config.yml]({{ http://clipart-library.com/images/riLoz4LqT.jpg}}/images/Music_Genre_Classification/sound_waves.png){:width="500"}
 
 ## Background:
 
