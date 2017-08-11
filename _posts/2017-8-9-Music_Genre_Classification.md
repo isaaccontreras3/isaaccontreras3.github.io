@@ -43,20 +43,24 @@ The feature importances of the Random Forest model plotted out on the bar chart 
 Similar genres can be determined by observing the probability of each genre for each track. The genre with the second highest probability for each genre is listed as the pair. These genre pairs can show the overall relationship and similarity between the genres. Bar charts for each target were plotted to show the most similar genres based on the pairs. Since there were significantly more rock and electronic tracks, the percentages of the total number of songs specified as that top genre were plotted instead of the raw numbers. These plots were created with Bokeh to include interactive tab panes that gives a more condensed layout to visualize the genre similarities. 
 
 <video width="500" height="400" controls>
-	<source src="/images/Music_Genre_Classification/Bar_graphs_2" type="video/mp4">
+	<source src="/images/Music_Genre_Classification/Bar_graphs_2.mp4" type="video/mp4">
 </video>
 
 Rock music shows similarities with most other genres, which could be due to the large proportion of rock music in the dataset. Electronic music also shared strong similarities with many other genres, such as experimental and hip-hop. Aside from the two most popular genres, the most interesting finding was classical music similarity with folk and jazz music.
 
 Genre similarity was also visualized with an interactive chord diagram built using Plotly. This visualization technique is especially useful to observe relationships within a dataset. The ideograms around the circumference proportionally illustrate the total number of tracks that fit the genre with the arc lengths. The ribbons in the middle that connect two nodes describe the relationship between the two genres with the number of tracks with the genre pairs. The chord diagram helps visualize the genre pairs all on one figure, which is useful to get an overall perspective of genre similarity. 
 
-<video of chord diagram>
+<video width="500" height="400" controls>
+	<source src="/images/Music_Genre_Classification/Chord_Diagram_2.mp4" type="video/mp4">
+</video>
 
 ## Application
 
 A simple interactive application to predict genre based on musical features was built using Flask. Each feature has a range input that can be dragged to a specified value, which will then output the number for better accuracy. After submitting the features with the click of the button at the bottom, the app will return the genre of music that had been inputted. 
 
-<video of flask app>
+<video width="500" height="400" controls>
+	<source src="/images/Music_Genre_Classification/Flask_2.mp4" type="video/mp4">
+</video>
 
 ## Next Steps:
 
