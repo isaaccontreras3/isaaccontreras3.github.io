@@ -1,15 +1,24 @@
 ---
 layout: page
-title: About
+title: About Me
 permalink: /about/
 ---
 
-Some information about you!
+I am a Data Scientist with a materials science background. I have a strong passion for technologies benefiting the environment and humanity. In my previous life, I was involved in clean energy focused experimental research projects involving semiconductors, batteries, and fuel cells. I intend to combine my data science skills and my domain knowledge from my engineering education in order to contribute positively to society.
 
-### More Information
+I have excellent analysis and research skills developed through data science and engineering projects utilizing a broad range of tools and methods, including but not limited to:
 
-A place to include any other types of information that you'd like to include about yourself.
+Python, MATLAB, SQL, supervised and unsupervised machine learning algorithms
+
+### Education
+
+#### Northwestern University
+
+M.S. Materials Science and engineering, December 2016
+	Thesis: Atomic Layer Deposition to Minimize Surface Segregation and Particle Coarsening in Solid Oxide Fuel Cell Cathodes
+
+B.S. Materials Science and Engineering, June 2015
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[kzhao682@gmail.com](mailto:kzhao682@gmail.com)
