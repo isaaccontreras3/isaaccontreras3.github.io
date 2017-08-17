@@ -8,13 +8,13 @@ I am a Data Scientist and Cleantech Enthusiast with a background in materials sc
 
 I have excellent analysis and research skills developed through data science and engineering projects utilizing a broad range of tools and methods, including but not limited to:
 
-Python, MATLAB, SQL, supervised and unsupervised machine learning algorithms
+Python, MATLAB, SQL, NoSQL, supervised and unsupervised machine learning algorithms
 
 ### Education
 
 #### Northwestern University
 
-M.S. Materials Science and engineering, December 2016
+M.S. Materials Science and Engineering, December 2016
 	Thesis: Atomic Layer Deposition to Minimize Surface Segregation and Particle Coarsening in Solid Oxide Fuel Cell Cathodes
 
 B.S. Materials Science and Engineering, June 2015
