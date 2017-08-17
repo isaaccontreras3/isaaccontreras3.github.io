@@ -4,7 +4,7 @@ title: About Me
 permalink: /about/
 ---
 
-I am a Data Scientist with a materials science background. I have a strong passion for technologies benefiting the environment and humanity. In my previous life, I was involved in clean energy focused experimental research projects involving semiconductors, batteries, and fuel cells. I intend to combine my data science skills and my domain knowledge from my engineering education in order to contribute positively to society.
+I am a Data Scientist and Cleantech Enthusiast with a background in materials science. I have a strong passion for technologies benefiting the environment and humanity. In my previous life, I was involved in clean energy technology focused experimental research projects involving semiconductors, batteries, and fuel cells. I intend to combine my data science skills and my domain knowledge from my engineering education in order to contribute positively to society.
 
 I have excellent analysis and research skills developed through data science and engineering projects utilizing a broad range of tools and methods, including but not limited to:
 
