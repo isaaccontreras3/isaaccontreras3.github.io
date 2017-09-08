@@ -10,7 +10,7 @@ I have excellent analysis and research skills developed through data science and
 
 Python, MATLAB, SQL, NoSQL, supervised and unsupervised learning algorithms
 
-### Education
+# Education
 
 #### Northwestern University
 
