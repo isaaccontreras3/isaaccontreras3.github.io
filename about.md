@@ -12,18 +12,16 @@ Python, MATLAB, SQL, NoSQL, supervised and unsupervised learning algorithms
 
 # Education
 
-#### Northwestern University
+### Northwestern University
 
-##### M.S. Materials Science and Engineering, December 2016
+#### M.S. Materials Science and Engineering, December 2016
 
-Thesis: Atomic Layer Deposition to Minimize Surface Segregation and Particle Coarsening in Solid Oxide Fuel Cell Cathodes
+*Thesis: Atomic Layer Deposition to Minimize Surface Segregation and Particle Coarsening in Solid Oxide Fuel Cell Cathodes*
 
-##### B.S. Materials Science and Engineering, June 2015
+#### B.S. Materials Science and Engineering, June 2015
 
-### Contact me
+## Contact me
 
-E-mail: [kzhao682@gmail.com](mailto:kzhao682@gmail.com)
-
-Linkedin: [kevinyzhao](https://www.linkedin.com/in/kevinyzhao/)
-
+E-mail: [kzhao682@gmail.com](mailto:kzhao682@gmail.com)\n
+Linkedin: [kevinyzhao](https://www.linkedin.com/in/kevinyzhao/)\n
 Github: [kzhao682](https://github.com/kzhao682/)
