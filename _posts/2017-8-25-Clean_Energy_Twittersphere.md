@@ -46,9 +46,11 @@ When choosing the number of clusters for K-Means, it is important to lower inert
 
 The clusters were visualized on a 3D plot generated from Plotly. In order fit the plot in three-dimensions, the dimensions had to be further reduced using LSA. Each axis represented a set of words to make up a topic. The 3D plot show clear and distinct clusters with even distribution of users in each cluster. The interactive plot also show details of each user when the mouse is hovered over each point.
 
-<video width="500" height="400" controls>
-	<source src="/images/Clean_Energy_Twitter/3D_plot.mp4" type="video/mp4">
-</video>
+<p align="center">
+	<video width="500" height="400" controls>
+		<source src="/images/Clean_Energy_Twitter/3D_plot.mp4" type="video/mp4">
+	</video>
+</p>
 
 Word clouds were also generated to visualize the clusters in more detail. This Python package accepts texts in the cluster, and calculates the term frequency of the most popular words. Words with higher term frequencies are returned in larger font, indicating the importance of the word to the cluster.
 
@@ -62,9 +64,11 @@ The main word that stands out in the fourth cluster is “Trump”. There are ot
 
 The final cluster is a little more difficult to interpret based on the larger words in the word cloud. However, the distinct words that appear only in this cluster are “UK”, “Brexit”, and “Nuclear”. The TF-IDF results on this cluster show that these three words are the most defining words of the cluster. This cluster of users appear to be concerned with the British inclination to bring back nuclear power as a major source of energy.
 
-<img src="/images/Clean_Energy_Twitter/image_3.png" width="500">
-<img src="/images/Clean_Energy_Twitter/image_4.png" width="500">
-<img src="/images/Clean_Energy_Twitter/image_5.png" width="500">
+<p align="center">
+	<img src="/images/Clean_Energy_Twitter/image_3.png" width="500">
+	<img src="/images/Clean_Energy_Twitter/image_4.png" width="500">
+	<img src="/images/Clean_Energy_Twitter/image_5.png" width="500">
+</p>
 
 ## Sentiment Analysis:
 
@@ -72,16 +76,22 @@ With 5 clearly defined clusters, it is still important to verify the clusters’
 
 In the Kernel density estimation plot for the “Cleantech Innovation” cluster, it is evident that a large amount of positive sentiments were associated with clean energy technology, such as solar energy, batteries, and electric vehicles. Although oil has more positive sentiments than expected, the negative sentiments are significantly higher than the renewable technologies. The distribution of sentiments for this cluster was, for the most part, as expected from a progressive group of people.
 
-<img src="/images/Clean_Energy_Twitter/image_6.png" width="500">
+<p align="center">
+	<img src="/images/Clean_Energy_Twitter/image_6.png" width="500">
+</p>
 
 Another example with the “British Nuclear Dilemma” cluster shows mixed results. While there were many negative sentiments with “Brexit”, “Nuclear” received more positive sentiments that negative. The overall distribution shows that there are sizable amounts of positive and negative sentiments for every topic. Sentiment analysis in this case was more inconclusive and needed further evaluation.
 
-<img src="/images/Clean_Energy_Twitter/image_7.png" width="500">
+<p align="center">
+	<img src="/images/Clean_Energy_Twitter/image_7.png" width="500">
+</p>
 
 The following are two example tweets extracted from users in the cluster mentioning “nuclear”. The first tweet admits that renewable is the better option, but nuclear is still a significant improvement over coal, especially for a developing country like India. It is understandable that this user may be a clean energy advocate, but still applauds any type of progress. The second tweet shows that the user clearly opposes nuclear technology in the UK. However, the tweet structured in a way that makes it difficult for Vader Sentiment Analyzer to pick up the sarcasm. This is an example of shortcomings with sentiment analysis despite representing most topics accurately.
 
-<img src="/images/Clean_Energy_Twitter/image_8.png" width="500">
-<img src="/images/Clean_Energy_Twitter/image_9.png" width="500">
+<p align="center">
+	<img src="/images/Clean_Energy_Twitter/image_8.png" width="500">
+	<img src="/images/Clean_Energy_Twitter/image_9.png" width="500">
+</p>
 
 ## Next Steps:
 
