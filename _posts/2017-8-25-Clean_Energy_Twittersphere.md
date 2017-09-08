@@ -2,7 +2,7 @@
 layout: post
 title: Deciphering the Clean Energy Twittersphere
 ---
-![_config.yml]({{ http://www.iconsdb.com/icons/preview/green/twitter-3-xxl.png}}/images/Clean_Energy_Twitter/twitter.png){:width="550"}
+![_config.yml]({{ http://www.iconsdb.com/icons/preview/green/twitter-3-xxl.png}}/images/Clean_Energy_Twitter/twitter.png){:height="400" width="500"}
 
 ## Background:
 
