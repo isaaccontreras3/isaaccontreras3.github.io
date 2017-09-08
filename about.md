@@ -20,7 +20,7 @@ Python, MATLAB, SQL, NoSQL, supervised and unsupervised learning algorithms
 
 #### B.S. Materials Science and Engineering, June 2015
 
-## Contact me
+# Contact Me
 
 <p style="line-height: 0.5;">
 	Email: 
