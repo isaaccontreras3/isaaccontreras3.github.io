@@ -20,11 +20,15 @@ By using natural language processing tools, such as NLTK and spaCy, it is possib
 
 The following is an example of a raw tweet collected from the Twitter API. The formatting and special characters within the tweets naturally bring noisy data that makes the raw form difficult to interpret and analyze. Natural language processing is most effective when the texts are in the most basic and lemmatized form.
 
+<p align="center">
 <img src="/images/Clean_Energy_Twitter/image_1.png" width="500">
+</p>
 
 The bulk of the text preprocessing was done using regular expressions. This cleaned up the URL links, special characters, emojis, and HTML entities. spaCy was first used to eliminate the stop words, which occur in an overwhelmingly large proportion of English sentences. Lemmatization was then applied to eliminate the inflectional endings and return the dictionary form of words so that different forms of the same word are represented similarly. For example, “seeing” should not be distinguished from “see” because the two words both share the same meaning. Fully preprocessed tweets, such as the one below, are then used to build matrices and models.
 
+<p align="center">
 <img src="/images/Clean_Energy_Twitter/image_2.png" width="500">
+</p>
 
 ## Vectorization:
 
