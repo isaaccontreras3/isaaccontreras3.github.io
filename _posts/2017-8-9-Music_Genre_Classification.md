@@ -22,8 +22,6 @@ Initial cleaning of the data cut the number of tracks to just under 8000 by elim
 
 <img src="/images/Music_Genre_Classification/plot_0.png" width="500">
 
--distribution of top genres, baseline accuracy
-
 ### Machine Learning Models
 
 The following machine learning models were built to classify the target using supervised learning techniques: K-Nearest Neighbors, Logistic Regression, Random Forest. GridSearchCV from the sklearn library was applied to each model to find the parameters that returned the highest accuracy score. 
