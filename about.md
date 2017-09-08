@@ -22,6 +22,8 @@ Python, MATLAB, SQL, NoSQL, supervised and unsupervised learning algorithms
 
 ## Contact me
 
-E-mail: [kzhao682@gmail.com](mailto:kzhao682@gmail.com)\n
-Linkedin: [kevinyzhao](https://www.linkedin.com/in/kevinyzhao/)\n
+E-mail: [kzhao682@gmail.com](mailto:kzhao682@gmail.com)
+
+Linkedin: [kevinyzhao](https://www.linkedin.com/in/kevinyzhao/)
+
 Github: [kzhao682](https://github.com/kzhao682/)
