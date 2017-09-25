@@ -85,7 +85,7 @@ The past 3 months of energy consumption was plotted to show the progress over ti
 
 With a general idea of the user's energy consumption, it also helps to understand the exact appliances that strongly affected the performance. The exploratory data analysis of the appliances compares the user's appliance usage to the average neighborhood usage. For more detailed hourly data, the dropdown of the specific appliance can be selected.
 
-<video width="500" height="400" controls>
+<video width="700" height="550" controls>
 	<source src="/images/Smart_Energy_Building/Dash_App.mp4" type="video/mp4">
 </video>
 
