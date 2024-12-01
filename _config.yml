@@ -18,7 +18,7 @@ avatar: https://avatars.githubusercontent.com/u/113457198?s=400&u=e48344547fb3a1
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email:
+  email: isaac.contreras.ko@gmail.com
   facebook:
   flickr:
   github: isaaccontreras3
@@ -85,4 +85,4 @@ exclude:
   - README.md
   - CNAME
 
-theme: jekyll-theme-cayman
+theme: jekyll-theme-minimal
