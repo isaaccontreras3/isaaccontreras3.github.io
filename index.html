@@ -5,14 +5,15 @@ layout: default
 <div class="posts">
   {% for post in site.posts %}
     <article class="post">
-      {% if post.image %}
-        <img src="{{ site.baseurl }}{{ post.image }}" alt="{{ post.title }}" style="width: 100%; height: auto; margin-bottom: 10px;">
-      {% endif %}
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
       <div class="entry">
         {{ post.excerpt }}
       </div>
+      {% if post.image %}
+        <img src="{{ site.baseurl }}{{ post.image }}" alt="{{ post.title }}" style="width: 100%; height: auto; margin-top: 10px; margin-bottom: 10px;">
+      {% endif %}
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
     </article>
   {% endfor %}
 </div>
+
