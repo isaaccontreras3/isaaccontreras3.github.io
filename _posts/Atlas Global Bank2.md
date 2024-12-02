@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Promoting Smart Energy Consumption
+title: Identifying Investment Opportunities in Emerging Markets Through Macroeconomic Performance Analysis
 ---
 ![_config.yml](/images/Smart_Energy_Building/Cover-photo.png){:width="550"}
 
