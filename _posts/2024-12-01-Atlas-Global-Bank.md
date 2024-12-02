@@ -1,9 +1,10 @@
 ---
 layout: post
 title: Atlas Global Bank
-![_config.yml](/images/Smart_Energy_Building/Cover-photo.png){:width="700"}
 excerpt: Identifying Investment Opportunities in Emerging Markets Through Macroeconomic Performance Analysis
 ---
+
+![Cover Photo]({{ site.baseurl }}/images/Smart_Energy_Building/Cover-photo.png){:width="700"}
 
 ## Background:
 
