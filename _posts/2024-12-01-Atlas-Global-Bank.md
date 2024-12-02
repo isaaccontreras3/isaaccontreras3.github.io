@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Identifying Investment Opportunities in Emerging Markets
+title: Identifying Investment Opportunities in Emerging Markets Through Macroeconomic Performance Analysis
 ---
-![_config.yml](/images/Smart_Energy_Building/Cover-photo.png){:width="550"}
+![_config.yml](/images/Smart_Energy_Building/Cover-photo.png){:width="700"}
 
 ## Background:
 
