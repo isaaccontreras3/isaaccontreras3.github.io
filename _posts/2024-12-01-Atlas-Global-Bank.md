@@ -29,11 +29,13 @@ The analysis began with an exploratory examination of the relationships between 
 <img src="/images/Atlas_Global_Bank/correlation_matrix_heatmap.png" width="600">
 </p>
 
-The results revealed a slope of 0.80; however, the data points are spread out. The MSE is 3.77, and the R² score is 0.73, indicating that the model explains 73% of the variation in consumption growth. Findings indicated a general positive trend; however, the relationship was not strictly linear. Factors such as inflation and unemployment also significantly influence consumption patterns—high inflation can erode purchasing power, while high unemployment can reduce overall economic activity.
+ These datasets included critical variables such as GDP growth rates, gross savings, consumption growth, inflation rates measured by the Consumer Price Index (CPI), unemployment rates, and foreign direct investment (FDI) inflows.
 
 <p align="center">
 <img src="/images/Atlas_Global_Bank/GDP_vs_Consumption_Growth_Regression.png" width="600">
 </p>
+
+The results revealed a slope of 0.80; however, the data points are spread out. The MSE is 3.77, and the R² score is 0.73, indicating that the model explains 73% of the variation in consumption growth. Findings indicated a general positive trend; however, the relationship was not strictly linear. Factors such as inflation and unemployment also significantly influence consumption patterns—high inflation can erode purchasing power, while high unemployment can reduce overall economic activity.
 
 ### Clustering Analysis
 
@@ -50,7 +52,7 @@ To capture the complexities of economic data, the analysis adopted **k-means clu
 - **Cluster 2 (Low or Negative Growth):** Countries with low or negative GDP growth, high unemployment, and less attractive investment climates. These economies pose significant challenges for expansion.
 
 <p align="center">
-<img src="/images/Atlas_Global_Bank/conclusion.png" width="600">
+<img src="/images/Atlas_Global_Bank/conclusion.png" width="1000">
 </p>
 
 ### Findings
