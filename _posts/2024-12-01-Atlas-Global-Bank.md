@@ -9,11 +9,11 @@ image: /images/Smart_Energy_Building/Cover-photo.png
 
 ## Background
 
-In an increasingly competitive financial landscape, **Atlas Global Bank** seeks to optimize its global presence by expanding into emerging markets with strong investment potential. Recognizing that macroeconomic indicators can provide valuable insights into a country's economic health and growth prospects, the bank aims to identify regions where its services can thrive. This project leverages supervised and unsupervised machine learning techniques to analyze key economic indicators—such as GDP growth, consumption rates, inflation, unemployment, and foreign direct investment inflows—to segment countries based on economic performance. The goal is to provide data-driven insights that will guide strategic decisions on international expansion, ensuring a targeted approach to maximize return on investment.
+In an increasingly competitive financial landscape, **Atlas Global Bank** seeks to optimize its global presence by expanding into emerging markets with strong investment potential. Recognizing that macroeconomic indicators can provide valuable insights into a country's economic health and growth prospects, the bank aims to identify regions where its products and derivates can thrive. This project leverages supervised and unsupervised machine learning techniques to analyze key economic indicators—such as GDP growth, consumption rates, inflation, unemployment, and foreign direct investment inflows—to segment countries based on economic performance. The goal is to provide data-driven insights that will guide strategic decisions on international expansion, ensuring a targeted approach to maximize return on investment.
 
 ## Data
 
-The analysis utilized macroeconomic data sourced from the **World Bank's World Development Indicators (WDI)**, comprising six comprehensive datasets in CSV format. These datasets included critical variables such as GDP growth rates, gross savings, consumption growth, inflation rates measured by the Consumer Price Index (CPI), unemployment rates, and foreign direct investment (FDI) inflows. Additionally, the project referenced **Nasdaq's analysis of top emerging markets** to identify potential target countries. The data underwent rigorous cleaning and transformation processes to ensure accuracy and consistency, including handling missing values, managing outliers, and restructuring the data for effective year-over-year comparisons.
+The analysis utilized macroeconomic data sourced from the **World Bank's World Development Indicators (WDI)**. Additionally, the project referenced **Nasdaq's analysis of top emerging markets** to identify potential target countries. The data underwent rigorous cleaning and transformation processes to ensure accuracy and consistency, including handling missing values, managing outliers, and restructuring the data for effective year-over-year comparisons.
 
 <p align="center">
 <img src="/images/Atlas_Global_Bank/data_cleaning.png" width="600">
@@ -23,7 +23,13 @@ The analysis utilized macroeconomic data sourced from the **World Bank's World D
 
 ### Exploratory Data Analysis
 
-The analysis began with an exploratory examination of the relationships between economic indicators. A primary hypothesis posited that an increase in a country's GDP growth would correlate with an increase in consumption growth, suggesting a positive relationship between economic expansion and consumer spending. Findings indicated a general positive trend; however, the relationship was not strictly linear. Factors such as inflation and unemployment also significantly influence consumption patterns—high inflation can erode purchasing power, while high unemployment can reduce overall economic activity.
+The analysis began with an exploratory examination of the relationships between economic indicators. A primary hypothesis posited that an increase in a country's GDP growth would correlate with an increase in consumption growth, suggesting a positive relationship between economic expansion and consumer spending. 
+
+<p align="center">
+<img src="/images/Regression_Line_GDP_vs_Consumption.png" width="600">
+</p>
+
+The results revealed a slope of 0.80; however, the data points are spread out. The MSE is 3.77, and the R² score is 0.73, indicating that the model explains 73% of the variation in consumption growth. Findings indicated a general positive trend; however, the relationship was not strictly linear. Factors such as inflation and unemployment also significantly influence consumption patterns—high inflation can erode purchasing power, while high unemployment can reduce overall economic activity.
 
 ### Clustering Analysis
 
@@ -64,4 +70,3 @@ By applying machine learning techniques to comprehensive economic data, the proj
 <p align="center">
 <img src="/images/Atlas_Global_Bank/global_strategy.png" width="600">
 </p>
-```
