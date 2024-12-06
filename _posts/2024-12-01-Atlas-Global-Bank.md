@@ -16,7 +16,7 @@ In an increasingly competitive financial landscape, **Atlas Global Bank** seeks 
 The analysis utilized macroeconomic data sourced from the **World Bank's World Development Indicators (WDI)**. Additionally, the project referenced **Nasdaq's analysis of top emerging markets** to identify potential target countries. The data underwent rigorous cleaning and transformation processes to ensure accuracy and consistency, including handling missing values, managing outliers, and restructuring the data for effective year-over-year comparisons.
 
 <p align="center">
-<img src="images/Atlas-Global-Bank/world-bank-logo.png" width="600">
+<img src="images/Atlas_Global_Bank/world_bank_logo.png" width="600">
 </p>
 
 ## Analysis
