@@ -16,7 +16,7 @@ In an increasingly competitive financial landscape, **Atlas Global Bank** seeks 
 The analysis utilized macroeconomic data sourced from the **World Bank's World Development Indicators (WDI)**. Additionally, the project referenced **Nasdaq's analysis of top emerging markets** to identify potential target countries. The data underwent rigorous cleaning and transformation processes to ensure accuracy and consistency, including handling missing values, managing outliers, and restructuring the data for effective year-over-year comparisons.
 
 <p align="center">
-<img src="/images/Atlas_Global_Bank/data_cleaning.png" width="600">
+<img src="images/Atlas-Global-Bank/world-bank-logo.png" width="600">
 </p>
 
 ## Analysis
@@ -31,9 +31,17 @@ The analysis began with an exploratory examination of the relationships between 
 
 The results revealed a slope of 0.80; however, the data points are spread out. The MSE is 3.77, and the R² score is 0.73, indicating that the model explains 73% of the variation in consumption growth. Findings indicated a general positive trend; however, the relationship was not strictly linear. Factors such as inflation and unemployment also significantly influence consumption patterns—high inflation can erode purchasing power, while high unemployment can reduce overall economic activity.
 
+<p align="center">
+<img src="/images/Regression_Line_GDP_vs_Consumption.png" width="600">
+</p>
+
 ### Clustering Analysis
 
 To capture the complexities of economic data, the analysis adopted **k-means clustering**, an unsupervised machine learning technique. This approach segmented countries into distinct clusters based on multiple economic indicators. Three economic profiles emerged:
+
+<p align="center">
+<img src="/images/Regression_Line_GDP_vs_Consumption.png" width="600">
+</p>
 
 - **Cluster 0 (Moderate Growth, Stable Economies):** Countries with consistent GDP growth, moderate savings rates, lower inflation, and stable trade growth. These economies offer stability and predictability, making them favorable for banking services and investment.
 
