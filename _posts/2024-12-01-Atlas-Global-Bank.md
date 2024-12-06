@@ -26,13 +26,13 @@ The analysis utilized macroeconomic data sourced from the **World Bank's World D
 The analysis began with an exploratory examination of the relationships between economic indicators. A primary hypothesis posited that an increase in a country's GDP growth would correlate with an increase in consumption growth, suggesting a positive relationship between economic expansion and consumer spending. 
 
 <p align="center">
-<img src="images/Atlas-Global-Bank/correlation_matrix_heatmap.png" width="600">
+<img src="images/Atlas_Global_Bank/correlation_matrix_heatmap.png" width="600">
 </p>
 
 The results revealed a slope of 0.80; however, the data points are spread out. The MSE is 3.77, and the R² score is 0.73, indicating that the model explains 73% of the variation in consumption growth. Findings indicated a general positive trend; however, the relationship was not strictly linear. Factors such as inflation and unemployment also significantly influence consumption patterns—high inflation can erode purchasing power, while high unemployment can reduce overall economic activity.
 
 <p align="center">
-<img src="images/Atlas-Global-Bank/GDP_vs_Consumption_Growth_Regression.png" width="600">
+<img src="images/Atlas_Global_Bank/GDP_vs_Consumption_Growth_Regression.png" width="600">
 </p>
 
 ### Clustering Analysis
@@ -40,7 +40,7 @@ The results revealed a slope of 0.80; however, the data points are spread out. T
 To capture the complexities of economic data, the analysis adopted **k-means clustering**, an unsupervised machine learning technique. This approach segmented countries into distinct clusters based on multiple economic indicators. Three economic profiles emerged:
 
 <p align="center">
-<img src="images/Atlas-Global-Bank/gdp_vs_consumption_clusters.png" width="600">
+<img src="images/Atlas_Global_Bank/gdp_vs_consumption_clusters.png" width="600">
 </p>
 
 - **Cluster 0 (Moderate Growth, Stable Economies):** Countries with consistent GDP growth, moderate savings rates, lower inflation, and stable trade growth. These economies offer stability and predictability, making them favorable for banking services and investment.
@@ -50,7 +50,7 @@ To capture the complexities of economic data, the analysis adopted **k-means clu
 - **Cluster 2 (Low or Negative Growth):** Countries with low or negative GDP growth, high unemployment, and less attractive investment climates. These economies pose significant challenges for expansion.
 
 <p align="center">
-<img src="images/Atlas-Global-Bank/conclusion.png" width="600">
+<img src="images/Atlas_Global_Bank/conclusion.png" width="600">
 </p>
 
 ### Findings
@@ -64,7 +64,7 @@ Cluster 0 countries emerged as the most promising candidates for expansion, alig
 - **Avoid Cluster 2 for now:** Due to challenging economic conditions, these markets are not recommended for immediate expansion.
 
 <p align="center">
-<img src="images/Atlas-Global-Bank/gdp_growth_by_country.png" width="600">
+<img src="images/Atlas_Global_Bank/gdp_growth_by_country.png" width="600">
 </p>
 
 ## Limitations and Future Work
