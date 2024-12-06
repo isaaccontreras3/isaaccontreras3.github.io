@@ -23,13 +23,15 @@ The analysis utilized macroeconomic data sourced from the **World Bank's World D
 
 ### Exploratory Data Analysis
 
-The analysis began with an exploratory examination of the relationships between economic indicators. A primary hypothesis posited that an increase in a country's GDP growth would correlate with an increase in consumption growth, suggesting a positive relationship between economic expansion and consumer spending. 
+The analysis began with an exploratory examination of the relationships between economic indicators. A primary hypothesis posited that an increase in a country's GDP growth would correlate with an increase in consumption growth, suggesting a positive relationship between economic expansion and consumer spending. These two, Consumption Growth and GDP Growth showed 0.80 correlation - (NE.CON.TOTL.KD.ZG and NY.GDP.MKTP.KD.ZG), meaning as GDP grows, consumption increases.
 
 <p align="center">
-<img src="/images/Atlas_Global_Bank/correlation_matrix_heatmap.png" width="600">
+<img src="/images/Atlas_Global_Bank/correlation_matrix_heatmap.png" width="800">
 </p>
 
- These datasets included critical variables such as GDP growth rates, gross savings, consumption growth, inflation rates measured by the Consumer Price Index (CPI), unemployment rates, and foreign direct investment (FDI) inflows.
+ These datasets included critical variables such as GDP growth rates, gross savings, consumption growth, inflation rates measured by the Consumer Price Index (CPI), unemployment rates, and foreign direct investment (FDI) inflows. 
+
+ ### Regression Analysis Results
 
 <p align="center">
 <img src="/images/Atlas_Global_Bank/GDP_vs_Consumption_Growth_Regression.png" width="600">
@@ -52,7 +54,7 @@ To capture the complexities of economic data, the analysis adopted **k-means clu
 - **Cluster 2 (Low or Negative Growth):** Countries with low or negative GDP growth, high unemployment, and less attractive investment climates. These economies pose significant challenges for expansion.
 
 <p align="center">
-<img src="/images/Atlas_Global_Bank/conclusion.png" width="1000">
+<img src="/images/Atlas_Global_Bank/conclusion.png" width="8000">
 </p>
 
 ### Findings
@@ -75,4 +77,4 @@ This analysis primarily focused on macroeconomic indicators, excluding sector-sp
 
 ## Conclusion
 
-By applying machine learning techniques to comprehensive economic data, the project provided actionable insights for **Atlas Global Bank's** international expansion strategy. Targeting stable emerging markets with favorable economic conditions will enable the bank to optimize its global presence and maximize returns. This data-driven approach ensures that expansion efforts are informed by a nuanced understanding of each market's economic profile, increasing the likelihood of successful market entry and sustained growth.
+By applying machine learning techniques to comprehensive economic data, the project provided actionable insights for **Atlas Global Bank's** international expansion strategy. Targeting stable emerging markets with favorable economic conditions will enable the bank to optimize its global presence and maximize returns. This data-driven approach ensures that expansion efforts are informed by a nuanced understanding of each market's economic profile, increasing the likelihood of successful market entry and sustained growth. [View Tableau Dashboard](https://public.tableau.com/app/profile/isaac.contreras/viz/AtlasGlobalBank/BankingExpansionOpportunitiesCaseAnalysis)
