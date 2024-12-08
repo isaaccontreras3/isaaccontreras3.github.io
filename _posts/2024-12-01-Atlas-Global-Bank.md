@@ -52,7 +52,7 @@ To capture the complexities of economic data, the analysis adopted **k-means clu
 - **Cluster 1 (High Consumption, Varied GDP):** Countries with high consumption growth but economic volatility. While high consumption indicates potential demand for banking services, economic instability presents higher risks.
 
 - **Cluster 2 (Low or Negative Growth):** Countries with low or negative GDP growth, high unemployment, and less attractive investment climates. These economies pose significant challenges for expansion.
-
+[View Tableau Dashboard](https://public.tableau.com/app/profile/isaac.contreras/viz/AtlasGlobalBank/BankingExpansionOpportunitiesCaseAnalysis)
 <p align="center">
 <img src="/images/Atlas_Global_Bank/conclusion.png" width="900">
 </p>
