@@ -23,23 +23,23 @@ The analysis utilized macroeconomic data sourced from the **World Bank's World D
 
 ### Exploratory Data Analysis
 
-The analysis began with an exploratory examination of the relationships between economic indicators. A primary hypothesis posited that an increase in a country's GDP growth would correlate with an increase in consumption growth, suggesting a positive relationship between economic expansion and consumer spending. These two, Consumption Growth and GDP Growth showed 0.80 correlation - (NE.CON.TOTL.KD.ZG and NY.GDP.MKTP.KD.ZG), meaning as GDP grows, consumption increases.
+The analysis began with an exploratory examination of the relationships between economic indicators. A primary hypothesis posited that an increase in a country's GDP growth would correlate with an increase in consumption growth, suggesting a positive relationship between economic expansion and consumer spending. 
 
 <p align="center">
 <img src="/images/Atlas_Global_Bank/correlation_matrix_heatmap.png" width="800">
 </p>
 
- These datasets included critical variables such as GDP growth rates, gross savings, consumption growth, inflation rates measured by the Consumer Price Index (CPI), unemployment rates, and foreign direct investment (FDI) inflows. 
+These two variables, Consumption Growth and GDP Growth showed 0.80 correlation - (NE.CON.TOTL.KD.ZG and NY.GDP.MKTP.KD.ZG), meaning as GDP grows, consumption increases. These datasets included critical variables such as GDP growth rates, gross savings, consumption growth, inflation rates measured by the Consumer Price Index (CPI), unemployment rates, and foreign direct investment (FDI) inflows, but with less correlation between them.
 
-### Regression Analysis Results
+### Testing the Relationships: Regression Analysis
+
+To quantify these relationships, we fit a regression model to assess how well GDP growth predicted consumption growth. The results were encouraging: the MSE is 3.77, and the R² score is 0.73, indicating that changes in GDP growth explained roughly 73% of the variation in consumption growth. However, the data also suggested the relationship was not strictly linear. This residual uncertainty underscores the importance of other factors—such as inflation and unemployment—that can significantly influence consumer behavior and overall economic activity.
 
 <p align="center">
 <img src="/images/Atlas_Global_Bank/GDP_vs_Consumption_Growth_Regression.png" width="800">
 </p>
 
-The results revealed a slope of 0.80; however, the data points are spread out. The MSE is 3.77, and the R² score is 0.73, indicating that the model explains 73% of the variation in consumption growth. Findings indicated a general positive trend; however, the relationship was not strictly linear. Factors such as inflation and unemployment also significantly influence consumption patterns—high inflation can erode purchasing power, while high unemployment can reduce overall economic activity.
-
-### Clustering Analysis
+### Uncovering Hidden Patterns: Clustering Analysis
 
 To capture the complexities of economic data, the analysis adopted **k-means clustering**, an unsupervised machine learning technique. This approach segmented countries into distinct clusters based on multiple economic indicators. Three economic profiles emerged:
 
@@ -61,15 +61,17 @@ To capture the complexities of economic data, the analysis adopted **k-means clu
 
 Cluster 0 countries emerged as the most promising candidates for expansion, aligning with the bank's objective of targeting regions with strong investment potential and lower risk profiles. In contrast, Cluster 1 countries require cautious entry strategies, and Cluster 2 countries are unsuitable for immediate expansion.
 
+To better understand why some economies offer more predictable opportunities than others, the following box plot highlights the variability in GDP growth among the top emerging markets. While Cluster 0 countries show relatively steady growth, other clusters exhibit wider fluctuations, underscoring the importance of considering volatility when devising expansion strategies.
+
+<p align="center"> 
+<img src="/images/Atlas_Global_Bank/gdp_growth_by_country.png" width="800"> 
+</p>
+
 ## Recommendations
 
 - **Prioritize Cluster 0 countries:** Focus on stable emerging markets with favorable economic conditions to optimize return on investment.
 - **Approach Cluster 1 cautiously:** Conduct thorough market research and develop tailored strategies to mitigate risks.
 - **Avoid Cluster 2 for now:** Due to challenging economic conditions, these markets are not recommended for immediate expansion.
-
-<p align="center">
-<img src="/images/Atlas_Global_Bank/gdp_growth_by_country.png" width="800">
-</p>
 
 ## Limitations and Future Work
 
