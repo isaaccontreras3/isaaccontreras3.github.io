@@ -1,9 +1,10 @@
 ---
 layout: post
-title: Instacart Grocery: Customer Behavior Analysis
-excerpt: Leveraging Data-Driven Insights to Refine Marketing Strategies in Online Grocery Sales
-image: /images/Instacart/Cover-photo.png
+title: "Instacart Grocery: Customer Behavior Analysis"
+excerpt: "Leveraging Data-Driven Insights to Refine Marketing Strategies in Online Grocery Sales"
+image: "/images/Instacart/Cover-photo.png"
 ---
+
 ![Cover Photo]({{ site.baseurl }}/images/Instacart/Cover-photo.png){:width="700"}
 
 ## Background
