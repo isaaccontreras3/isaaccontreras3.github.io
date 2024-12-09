@@ -1,3 +1,4 @@
+---
 layout: post
 title: Instacart Grocery: Customer Behavior Analysis
 excerpt: Leveraging Data-Driven Insights to Refine Marketing Strategies in Online Grocery Sales
