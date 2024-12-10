@@ -2,10 +2,10 @@
 layout: post
 title: Atlas Global Bank
 excerpt: Identifying Investment Opportunities in Emerging Markets Through Macroeconomic Performance Analysis
-image: /images/Smart_Energy_Building/Cover-photo.png
+image: /images/Instacart/inst-logo.png
 ---
 
-![Cover Photo]({{ site.baseurl }}/images/Smart_Energy_Building/Cover-photo.png){:width="700"}
+![Cover Photo]({{ site.baseurl }}/images/Instacart/inst-logo.png){:width="700"}
 
 ## Background
 
