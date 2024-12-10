@@ -5,7 +5,7 @@ excerpt: Leveraging Data-Driven Insights to Refine Marketing Strategies in Onlin
 image: /images/Instacart/inst-logo.png
 ---
 
-![Cover Photo]({{ site.baseurl }}/images/Instacart/inst-logo.png){:width="400"}
+![Cover Photo]({{ site.baseurl }}/images/Instacart/inst-logo.png){:width="500"}
 
 ## Background
 
