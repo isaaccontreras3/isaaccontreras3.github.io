@@ -2,10 +2,10 @@
 layout: post
 title: Customer Behavior Analysis
 excerpt: Leveraging Data-Driven Insights to Refine Marketing Strategies in Online Grocery Sales
-image: /images/Instacart/inst-logo.png
+image: /images/Instacart/Inst_logo2.png
 ---
 
-![Cover Photo]({{ site.baseurl }}/images/Instacart/Inst_logo2.png){:width="500"}
+![Cover Photo]({{ site.baseurl }}/images/Instacart/Inst_logo2.png){:width="400"}
 
 ## Background
 
