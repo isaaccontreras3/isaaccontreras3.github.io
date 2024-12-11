@@ -85,3 +85,5 @@ Our analysis relied on historical data, without factoring in seasonal variations
 ## Conclusion
 
 This project demonstrates how translating broad business questions into structured, data-driven analysis can yield actionable insights. By leveraging Instacart’s sales and customer data, we identified peak shopping times, profitable customer segments, and opportunities for tailored marketing campaigns. Through close collaboration with marketing and sales teams, we ensured that these insights are ready to drive more effective, targeted strategies—ultimately enhancing the customer experience and improving business outcomes.
+
+[Final Report Sent to Client](https://u.pcloud.link/publink/show?code=XZA2y55Zh4oyn4PHn6YRvAomUJ4PzF4w1mVk)
