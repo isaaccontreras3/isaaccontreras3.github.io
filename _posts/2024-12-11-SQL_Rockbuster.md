@@ -2,9 +2,9 @@
 layout: post
 title: Adapting to the Streaming Era
 excerpt: SQL Data-Driven Insights to Guide the Strategic Transition of an Online Video Service
-image: /images/Rockbuster/RB_logo.png
+image: /images/SQL_Rockbuster/rockbuster_logo.png
 ---
-![Cover Photo]({{ site.baseurl }}/images/Rockbuster/RB_logo.png){:width="400"}
+![Cover Photo]({{ site.baseurl }}/images/SQL_Rockbuster/rockbuster_logo.png){:width="500"}
 
 ## Background
 
@@ -13,6 +13,11 @@ Rockbuster Stealth LLC, once a global chain of movie rental stores, now faces a 
 ## Data
 
 The analysis leveraged a **relational database** containing Rockbuster’s historical rental data, inventory details, customer demographics, payment records, and country/city-level information. Data was sourced from multiple CSV files and loaded into a **PostgreSQL** database using industry-standard ETL processes. This relational schema allowed for complex **SQL** queries, **JOINs**, and **OLAP**-style aggregations.
+
+[ERD Diagram](https://u.pcloud.link/publink/show?code=XZw2OI0Zq1iIMgwH4fHcVu8K5AX6pyJ02mX7):
+<p align="center">
+<img src="/images/SQL_Rockbuster/ERD-extraction.png" width="800">
+</p>
 
 Key aspects of data handling included:
 
@@ -25,7 +30,7 @@ By combining **CRUD operations**, **complex joins**, **nested subqueries**, and 
 ## Analysis
 
 The analysis centered on uncovering revenue drivers, identifying high-value customers, and understanding geographic trends. By examining which countries and cities yielded the most profit, pinpointing segments with strong lifetime value, comparing purchasing power across regions, exploring top-performing film categories, and evaluating rental durations alongside pricing strategies, we ensured the findings would directly inform strategic decisions for the online video launch. Throughout the process, I leveraged a combination of SQL joins, CTEs, subqueries, and filtering techniques to efficiently extract and transform data. This data-driven approach enabled the BI team to move from broad, high-level questions to actionable insights grounded in empirical evidence.
-
+[Queries Made](https://github.com/isaaccontreras3/SQL_Rockbuster_Stealth_LLC/tree/master/02%20Queries%20%26%20Analysis)
 ### Findings
 
 - **Global Revenue Leaders:** India, China, and the U.S. drove revenue, with cities like London and Saint-Denis emerging as prime targets for early promotions.  
