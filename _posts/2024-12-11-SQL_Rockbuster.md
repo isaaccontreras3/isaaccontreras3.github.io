@@ -31,9 +31,14 @@ By combining **CRUD operations**, **complex joins**, **nested subqueries**, and 
 
 The analysis centered on uncovering revenue drivers, identifying high-value customers, and understanding geographic trends. By examining which countries and cities yielded the most profit, pinpointing segments with strong lifetime value, comparing purchasing power across regions, exploring top-performing film categories, and evaluating rental durations alongside pricing strategies, we ensured the findings would directly inform strategic decisions for the online video launch. Throughout the process, I leveraged a combination of SQL joins, CTEs, subqueries, and filtering techniques to efficiently extract and transform data. This data-driven approach enabled the BI team to move from broad, high-level questions to actionable insights grounded in empirical evidence.
 [Queries Made](https://github.com/isaaccontreras3/SQL_Rockbuster_Stealth_LLC/tree/master/02%20Queries%20%26%20Analysis)
+
+<p align="center">
+<img src="/images/SQL_Rockbuster/Financial-Snapshop-RB.png" width="800">
+</p>
+
 ### Findings
 
-- **Global Revenue Leaders:** India, China, and the U.S. drove revenue, with cities like London and Saint-Denis emerging as prime targets for early promotions.  
+- **Global Revenue Leaders:** India, China, and the U.S. drove revenue, with cities like London and Saint-Denis emerging as prime targets for early promotions. [Tableau Dashbord of Leader Category by Revenue](https://public.tableau.com/app/profile/isaac.contreras/viz/LeaderCategorybyRevenue/CategorybyRevenueinCounrty)
 - **High-LTV Customers:** Cities like London, Udaipur, and Aurora hosted customers with exceptional lifetime value, supporting personalized loyalty initiatives.  
 - **Purchasing Power vs. Revenue:** While Asia topped raw revenue, Europe and Africa showed higher purchasing power, signaling untapped market potential.  
 - **Regional Content Preferences:** Sports dominated India and the U.S., while Animation thrived in China, emphasizing the need for region-specific content strategies.
@@ -46,6 +51,12 @@ The analysis centered on uncovering revenue drivers, identifying high-value cust
 4. **Localize Content Acquisition:** Invest in regionally preferred categories—such as Sports in India and the U.S., and Animation in China—to boost engagement and viewer satisfaction.  
 5. **Refine Pricing & Rental Duration:** Align pricing models and rental periods (around 5 days) with consumer habits, encouraging longer engagement and optimized revenue streams.
 
+<p align="center">
+<img src="/images/SQL_Rockbuster/PurPower_vs_Reve.png" width="800">
+</p>
+
+[Complete Case Study Sent to Client](https://u.pcloud.link/publink/show?code=XZ2fy55ZsAsJmyyqAX7rPxc3QYs52klSPFsk)
+
 ## Limitations and Future Work
 
 This analysis is based on historical data and may not fully account for seasonal events, cultural holidays, or emerging industry trends. Integrating external data sources—such as weather patterns, local festivities, and competitor analyses—could enhance the precision of insights. Future efforts might include deploying machine learning models for advanced predictive analytics, implementing recommendation systems, and continuously refining our approach based on stakeholder feedback and evolving market conditions.
@@ -53,3 +64,4 @@ This analysis is based on historical data and may not fully account for seasonal
 ## Conclusion
 
 By effectively utilizing SQL in an OLAP environment and performing comprehensive ETL tasks, we transformed Rockbuster’s historical data into strategic guidance. The resulting insights shaped recommendations for targeted marketing, personalized retention efforts, content localization, and pricing optimization. As Rockbuster Stealth LLC transitions into the online video rental space, these data-driven strategies will help the company adapt swiftly and compete more effectively in a rapidly changing digital entertainment landscape.
+[Complete Case Study Sent to Client](https://u.pcloud.link/publink/show?code=XZ2fy55ZsAsJmyyqAX7rPxc3QYs52klSPFsk)
