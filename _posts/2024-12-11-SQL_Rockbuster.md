@@ -19,6 +19,8 @@ The analysis leveraged a **relational database** containing Rockbuster’s histo
 <img src="/images/SQL_Rockbuster/ERD-extraction.png" width="800">
 </p>
 
+[Data Dictionary](https://u.pcloud.link/publink/show?code=XZ92OI0ZwEePif9MTmFufQxDA8RbvjKgdCAy)
+
 Key aspects of data handling included:
 
 - **Data Wrangling & Cleaning:** Ensured accurate data types, managed null values, and standardized field formatting.
