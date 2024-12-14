@@ -47,3 +47,6 @@ My proficiency includes but not limited to:
   GitHub:
   <a href="https://github.com/isaaccontreras3">isaaccontreras3</a>
 </p>
+
+*"Simplicity is the final achievement"*
+- Frédéric Chopin
