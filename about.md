@@ -11,10 +11,12 @@ My proficiency includes but not limited to:
 
 - **Programming Languages**: Python, SQL
 - **Data Analysis & Visualization**: Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, Tableau, Power BI, Advanced Excel
-- **Database Management**: PostgreSQL, pgAdmin4, ETL processes, APIs
-- **Machine Learning**: Statistical Analysis, Decision Trees, Data Mining
+- **Database Management**: PostgreSQL, pgAdmin4, ETL processes, APIs, Data Mining
+- **Machine Learning**: Statistical Analysis, Supervised and Unsupervised Learning Models
 - **Tools**: Jupyter Notebook
 - **Soft Skills**: Leadership, Problem-Solving, Team Management
+
+[Complete Resume](https://u.pcloud.link/publink/show?code=XZkjY55Z2StqE37js54WeqmudP2rnhVNDNmX)
 
 # Education
 
@@ -32,6 +34,8 @@ My proficiency includes but not limited to:
 
 ### UNEXPO (National Experimental University Polytechnic) — Venezuela  
 **Bachelor of Science in Electrical Engineering** | 2014 – 2017
+
+[Complete Resume](https://u.pcloud.link/publink/show?code=XZkjY55Z2StqE37js54WeqmudP2rnhVNDNmX)
 
 # Contact Me
 
