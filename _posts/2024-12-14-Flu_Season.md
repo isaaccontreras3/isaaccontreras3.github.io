@@ -9,28 +9,28 @@ image: /images/Flu_Season/flu_logo.png
 
 ## Background
 
-Each year, the United States faces an influenza season in which hospital admissions rise steeply. Particularly hard hit are vulnerable populations—older adults, pregnant women, young children, and those with chronic illnesses. To cope with this surge, a medical staffing agency supplies additional nurses, physician assistants, and doctors to healthcare facilities across all 50 states. However, with limited personnel available, the agency must optimize staffing allocation based on data-driven forecasts of flu surges.
+Each year, the **United States faces an influenza season** in which hospital admissions rise steeply. Particularly hard hit are vulnerable populations—older adults, pregnant women, young children, and those with chronic illnesses. To cope with this surge, a medical staffing agency supplies additional nurses, physician assistants, and doctors to healthcare facilities across all 50 states. However, with limited personnel available, the agency must optimize staffing allocation based on data-driven forecasts of flu surges.
 
-This project’s objective: Determine when to send additional staff, how many, and to which states to meet seasonal spikes in demand while focusing on protecting vulnerable populations. Leveraging CDC datasets on influenza trends and US Census data on demographics, we built a comprehensive analysis that offers proactive measures—ensuring hospitals and clinics have sufficient coverage without overextending staffing budgets. Throughout this project, data privacy and ethics remained a priority and PII was handled with best and professional practices for data security and confidentiality. 
+This project’s objective: **Determine when to send additional staff, how many, and to which states** to meet seasonal spikes in demand while focusing on protecting vulnerable populations. Leveraging **CDC datasets** on influenza trends and **US Census data** on demographics, we built a comprehensive analysis that offers proactive measures—ensuring hospitals and clinics have sufficient coverage without overextending staffing budgets. Throughout this project, **data privacy and ethics remained a priority** as well PII was handled with the best and professional practices for data security and confidentiality. 
 
 ## Data
 
 To accurately forecast staffing requirements, I combined two robust data sources: historical influenza death records from the CDC and detailed population demographics from the US Census Bureau. By merging these datasets, I captured age-based distributions (with special attention to children under five and adults over 65) to build comprehensive vulnerability indices. Where certain death counts were suppressed or under-reported, I employed statistical imputation and comparative analysis across similar states. These steps ensured a reliable, ethically sound data pipeline, free from personally identifiable information (PII). Because I only utilized aggregated, state-level data, I maintained data privacy while preserving meaningful insights for each jurisdiction.
+
 [Data Limitations](https://u.pcloud.link/publink/show?code=XZ5cQ55ZpDvFtz50zNbj7gM2dQtbGVVDcNMX)
 
 ## Analysis
 
-I performed a time-series analysis of historical flu surges from 2009–2017, detecting strong seasonal patterns peaking between December and February. Leveraging descriptive statistics and forecasting techniques (e.g., ARIMA), I modeled how flu waves would stress limited staffing resources. Next, I developed a vulnerability index by correlating flu mortality with demographic segments, revealing a 90%+ relationship between high-risk age groups and flu-related deaths. Incorporating advanced Tableau visualizations, I mapped per-state projections to identify where extra medical personnel could meaningfully reduce hospital strain. 
+I performed a **time-series analysis** of historical flu surges from 2009–2017, detecting strong seasonal patterns peaking between December and February. Leveraging **descriptive statistics and forecasting techniques**, I modeled how flu waves would stress limited staffing resources. Next, I developed a vulnerability index by correlating flu mortality with demographic segments, revealing a 90%+ relationship between high-risk age groups and flu-related deaths. Incorporating advanced [Tableau Visualizations](https://public.tableau.com/app/profile/isaac.contreras/viz/2_10Final/Story1), I mapped per-state projections to identify where extra medical personnel could meaningfully reduce hospital strain. 
 
+[Tableau Presentation](https://public.tableau.com/app/profile/isaac.contreras/viz/2_10Final/Story1)
 <p align="center">
 <img src="/images/Flu_Season/flu_season.png" width="950">
 </p>
 
-[Tableau Presentation](https://public.tableau.com/app/profile/isaac.contreras/viz/2_10Final/Story1)
-
 ## Findings
 
-The results spotlighted Florida, Texas, California, and several northern states (notably New York and Illinois) as top priorities due to their larger populations of infants, seniors, and immunocompromised individuals. My analysis indicates that allocating approximately 5,000 nurses and 1,020 doctors across the seven most impacted states during peak weeks can maintain a stable 90% or better staff-to-patient ratio. This strategic deployment—timed two weeks before the typical outbreak—significantly mitigates bottlenecks at local healthcare facilities.
+The results spotlighted Florida, Texas, California, and several northern states (notably New York and Illinois) as top priorities due to their larger populations of infants, seniors, and immunocompromised individuals. **My analysis indicates that allocating approximately 5,000 nurses and 1,020 doctors** across the seven most impacted states during peak weeks can maintain a stable 90% or better staff-to-patient ratio. This strategic deployment—timed two weeks before the typical outbreak—significantly mitigates bottlenecks at local healthcare facilities.
 [Interim Report](https://u.pcloud.link/publink/show?code=XZFQEI0ZQ0W8IgoW8kQrm997dXaOKSyjgtGy)
 
 ## Recommendations
