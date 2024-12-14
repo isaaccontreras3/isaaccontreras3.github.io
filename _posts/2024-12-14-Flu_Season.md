@@ -15,7 +15,7 @@ This project’s objective: **Determine when to send additional staff, how many,
 
 ## Data
 
-To accurately forecast staffing requirements, I combined two robust data sources: historical influenza death records from the CDC and detailed population demographics from the US Census Bureau. By merging these datasets, I captured age-based distributions (with special attention to children under five and adults over 65) to build comprehensive vulnerability indices. Where certain death counts were suppressed or under-reported, I employed statistical imputation and comparative analysis across similar states. These steps ensured a reliable, ethically sound data pipeline, free from personally identifiable information (PII). Because I only utilized aggregated, state-level data, I maintained data privacy while preserving meaningful insights for each jurisdiction.
+To accurately forecast staffing requirements, I combined two robust data sources: historical influenza death records from the CDC and detailed population demographics from the US Census Bureau. By merging these datasets, I captured age-based distributions (with special attention to children under five and adults over 65) to build comprehensive vulnerability indices. Where certain death counts were suppressed or under-reported, I employed **statistical imputation and comparative analysis** across similar states. These steps ensured a reliable, ethically sound data pipeline, free from PII.
 
 [Data Limitations](https://u.pcloud.link/publink/show?code=XZ5cQ55ZpDvFtz50zNbj7gM2dQtbGVVDcNMX)
 
@@ -23,7 +23,7 @@ To accurately forecast staffing requirements, I combined two robust data sources
 
 I performed a **time-series analysis** of historical flu surges from 2009–2017, detecting strong seasonal patterns peaking between December and February. Leveraging **descriptive statistics and forecasting techniques**, I modeled how flu waves would stress limited staffing resources. Next, I developed a vulnerability index by correlating flu mortality with demographic segments, revealing a 90%+ relationship between high-risk age groups and flu-related deaths. Incorporating advanced [Tableau Visualizations](https://public.tableau.com/app/profile/isaac.contreras/viz/2_10Final/Story1), I mapped per-state projections to identify where extra medical personnel could meaningfully reduce hospital strain. 
 
-[Tableau Presentation](https://public.tableau.com/app/profile/isaac.contreras/viz/2_10Final/Story1)
+[Tableau Complete Presentation Link](https://public.tableau.com/app/profile/isaac.contreras/viz/2_10Final/Story1)
 <p align="center">
 <img src="/images/Flu_Season/flu_season.png" width="950">
 </p>
