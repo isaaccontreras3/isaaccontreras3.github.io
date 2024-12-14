@@ -49,4 +49,4 @@ My proficiency includes but not limited to:
 </p>
 
 *"Simplicity is the final achievement"*
-- Frédéric Chopin
+Frédéric Chopin
