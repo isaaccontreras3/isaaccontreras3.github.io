@@ -79,4 +79,6 @@ This analysis primarily focused on macroeconomic indicators, excluding sector-sp
 
 ## Conclusion
 
-By applying machine learning techniques to comprehensive economic data, the project provided actionable insights for **Atlas Global Bank's** international expansion strategy. Targeting stable emerging markets with favorable economic conditions will enable the bank to optimize its global presence and maximize returns. This data-driven approach ensures that expansion efforts are informed by a nuanced understanding of each market's economic profile, increasing the likelihood of successful market entry and sustained growth. [View Tableau Dashboard](https://public.tableau.com/app/profile/isaac.contreras/viz/AtlasGlobalBank/BankingExpansionOpportunitiesCaseAnalysis)
+By applying machine learning techniques to comprehensive economic data, the project provided actionable insights for **Atlas Global Bank's** international expansion strategy. Targeting stable emerging markets with favorable economic conditions will enable the bank to optimize its global presence and maximize returns. This data-driven approach ensures that expansion efforts are informed by a nuanced understanding of each market's economic profile, increasing the likelihood of successful market entry and sustained growth. 
+
+[Deeper Case Study](https://u.pcloud.link/publink/show?code=XZMuY55ZmF2pM6bgF7bJm8qMnAYYlQ8kUKHV)
