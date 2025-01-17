@@ -16,7 +16,7 @@ My proficiency includes but not limited to:
 - **Tools**: Jupyter Notebook
 - **Soft Skills**: Leadership, Problem-Solving, Team Management
 
-[Complete Resume](https://u.pcloud.link/publink/show?code=XZkjY55Z2StqE37js54WeqmudP2rnhVNDNmX)
+[Complete Resume](https://u.pcloud.link/publink/show?code=XZkprJ5ZdLM6Qxc6tcFzEbEKTnQDo42P4QQk)
 
 # Education
 
@@ -35,7 +35,7 @@ My proficiency includes but not limited to:
 ### UNEXPO (National Experimental University Polytechnic) — Venezuela  
 **Bachelor of Science in Electrical Engineering** | 2014 – 2017
 
-[Complete Resume](https://u.pcloud.link/publink/show?code=XZkjY55Z2StqE37js54WeqmudP2rnhVNDNmX)
+[Complete Resume](https://u.pcloud.link/publink/show?code=XZkprJ5ZdLM6Qxc6tcFzEbEKTnQDo42P4QQk)
 
 # Contact Me
 
