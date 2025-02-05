@@ -16,7 +16,7 @@ My proficiency includes but not limited to:
 - **Tools**: Jupyter Notebook
 - **Soft Skills**: Leadership, Problem-Solving, Team Management
 
-[Complete Resume](https://u.pcloud.link/publink/show?code=XZkprJ5ZdLM6Qxc6tcFzEbEKTnQDo42P4QQk)
+[Complete Resume](https://u.pcloud.link/publink/show?code=XZ3Vbp5Zmk65ic8Vy55XpEOBE2U115oDOluV)
 
 # Education
 
@@ -30,12 +30,11 @@ My proficiency includes but not limited to:
 
 ### Valencia College — Orlando, FL  
 **Associate Degree in Finance** | 2018 – 2020  
-*Relevant Coursework: Risk Management, Financial Modeling, Communication*
 
 ### UNEXPO (National Experimental University Polytechnic) — Venezuela  
 **Bachelor of Science in Electrical Engineering** | 2014 – 2017
 
-[Complete Resume](https://u.pcloud.link/publink/show?code=XZkprJ5ZdLM6Qxc6tcFzEbEKTnQDo42P4QQk)
+[Complete Resume](https://u.pcloud.link/publink/show?code=XZ3Vbp5Zmk65ic8Vy55XpEOBE2U115oDOluV)
 
 # Contact Me
 
