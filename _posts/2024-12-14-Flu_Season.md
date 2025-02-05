@@ -5,7 +5,7 @@ excerpt: Leveraging Data-Driven Forecasting to Allocate Resources and Support Vu
 image: /images/Flu_Season/flu_logo.png
 ---
 
-![Cover Photo]({{ site.baseurl }}/images/Flu_Season/flu_logo.png){:width="600"}
+![Cover Photo]({{ site.baseurl }}/images/Flu_Season/flu-statista.jpeg){:width="600"}
 
 ## Background
 
