@@ -2,7 +2,7 @@
 layout: post
 title: Optimizing Medical Staffing for Influenza Season
 excerpt: Leveraging Data-Driven Forecasting to Allocate Resources and Support Vulnerable Populations
-image: /images/Flu_Season/flu_logo.png
+image: /images/Flu_Season/flu-statista.jpeg
 ---
 
 ![Cover Photo]({{ site.baseurl }}/images/Flu_Season/flu-statista.jpeg){:width="600"}
